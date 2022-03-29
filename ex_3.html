@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ex_3</title>
+</head>
+<body>
+<div>
+    <h1>YÊU ANH ĐI NẠ</h1>
+    <img src="https://pbs.twimg.com/media/FEA5Bb8WYAkRDZt.jpg" alt="image" width="300px" height="300px">
+</div>
+<div id="only_one_choice">
+    <button onclick="alert('luv you too')">Ok anh nè</button>
+    <button id="NO">Thôi ạ</button>
+</div>
+<script>
+    document.getElementById("NO").onmouseover = function () {
+        document.getElementById("only_one_choice").style.display = 'none';
+    };
+    document.getElementById("NO").onmouseout = function () {
+        document.getElementById("only_one_choice").style.display = 'block';
+    };
+</script>
+</body>
+</html>

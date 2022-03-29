@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ex_4</title>
+</head>
+<body>
+<p id="total">Tổng của hai số:</p>
+<p id="remainder">Phần dư của hai số:</p>
+<p id="devision">Thương của hai số:</p>
+<p id="bpa">Bình phương của a:</p>
+<p id="bpb">Bình phương của b:</p>
+<script>
+    let x = prompt("Enter a");
+    let a = +x;
+    let y = prompt("Enter b");
+    let b = +y;
+    let c = a + b;
+    let d = a % b;
+    let e = a / b;
+    let f = a ** 2;
+    let g = b ** 2;
+    document.getElementById("total").innerHTML = c;
+    document.getElementById("remainder").innerHTML = d;
+    document.getElementById("devision").innerHTML = e;
+    document.getElementById("bpa").innerHTML = f;
+    document.getElementById("bpb").innerHTML = g;
+</script>
+</body>
+</html>
